@@ -46,17 +46,34 @@ h4{
         border-radius: 15px 0px;
         padding: 10px 20px;
         margin-left: 45px;
+}
+/*  */
 
+.footer-area{
+        background-color: #F8F8F8;
+}
+
+.footer-top{
+        padding-top: 90px;
+        padding-bottom: 70px;
+}
+
+.footer-about p{
+        margin-top: 15px;
 }
 
 @media (max-width:991px){
-        .header-area .nav-link{
+
+        .header-area .nav-link
+        {
                 margin-left: 0px;
         }
-        .header-area .navbar-nav .nav-link:last-child{
+        .header-area .navbar-nav .nav-link:last-child
+        {
                
                 margin-left: 0px;
                 text-align: center;
+        }
     }
     
         
