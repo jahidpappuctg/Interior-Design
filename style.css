@@ -1,79 +1,76 @@
 /* font-family: 'Open Sans', sans-serif;
 font-family: 'Poppins', sans-serif; */
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Poppins:wght@500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Poppins:wght@500;600;700&display=swap");
 
-*{
-        margin: 0;
-        padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-      font-family: 'Open Sans', sans-serif;  
-      font-weight: 400; 
-      font-size: 17px;
-      color: #646464;
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  color: #646464;
 }
 
 h1,
 h2,
 h3,
-h4{
-        font-family: 'Poppins', sans-serif;
-        font-weight: 600; 
-        color: #212121;   
-
+h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #212121;
 }
 
 /* header area */
-.header-area{
-        margin-top: 30px;
+.header-area {
+  margin-top: 30px;
 }
-.header-area .nav-link{
-        margin-left: 30px;
-        text-transform: uppercase;
-        color: #212121;
-        font-weight: 600;
-}
-
-.header-area .nav-link .active{
-        color: #646464;
+.header-area .nav-link {
+  margin-left: 30px;
+  text-transform: uppercase;
+  color: #212121;
+  font-weight: 600;
 }
 
-.header-area .navbar-nav .nav-link:last-child{
-        background-color: #CAA892;
-        color: #fff;
-        border-radius: 15px 0px;
-        padding: 10px 20px;
-        margin-left: 45px;
+.header-area .nav-link .active {
+  color: #646464;
+}
+
+.header-area .navbar-nav .nav-link:last-child {
+  background-color: #caa892;
+  color: #fff;
+  border-radius: 15px 0px;
+  padding: 10px 20px;
+  margin-left: 45px;
 }
 /*  */
 
-.footer-area{
-        background-color: #F8F8F8;
+.footer-area {
+  background-color: #f8f8f8;
 }
 
-.footer-top{
-        padding-top: 90px;
-        padding-bottom: 70px;
+.footer-link h3 {
+  font-size: 20px;
 }
 
-.footer-about p{
-        margin-top: 15px;
+.footer-top {
+  padding-top: 80px;
+  padding-bottom: 70px;
 }
 
-@media (max-width:991px){
+.footer-about p {
+  margin-top: 15px;
+}
 
-        .header-area .nav-link
-        {
-                margin-left: 0px;
-        }
-        .header-area .navbar-nav .nav-link:last-child
-        {
-               
-                margin-left: 0px;
-                text-align: center;
-        }
-    }
-    
-        
+@media (max-width: 991px) {
+  .header-area .nav-link {
+    margin-left: 0px;
+  }
+  .header-area .navbar-nav .nav-link:last-child {
+    margin-left: 0px;
+    text-align: center;
+  }
+}
