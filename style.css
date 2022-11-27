@@ -51,6 +51,7 @@ h4{
 
 .footer-area{
         background-color: #F8F8F8;
+        position: relative;
 }
 
 .footer-top{
@@ -60,6 +61,67 @@ h4{
 
 .footer-about p{
         margin-top: 15px;
+}
+
+.footer-link ul{
+        padding: 0;
+        margin: 0;
+}
+.footer-link ul li{
+       list-style: none; 
+}
+
+.footer-link ul li a{
+        text-decoration: none;
+        padding: 5px;
+        display: inline-block;
+        color: #646464;
+        transition: .3s;
+}
+.footer-link ul li a:hover{
+        color: #37806B;
+}
+
+.footer-link address{
+        line-height: 2.2;
+}
+.social-link li{
+        display: inline-block;
+        margin-right: 10px;
+}
+
+.social-link li a {
+      border-radius: 50%; 
+      background-color: #D5D5D5;
+      height: 40px;
+      width: 40px;
+      display: flex !important;
+      justify-content: center;
+      align-items: center;
+      transition: .3s;
+}
+.social-link li a:hover  {
+        background-color: #37806B;
+        color: #212121
+  }
+
+.footer-bottom{
+        border-top: 1px solid #C4C4C4;
+}
+.footer-bottom a{
+        text-decoration: none;
+        color: #37806B;
+}
+
+.footer-area .design{
+        position: absolute;
+        content: "";
+        top: -70px;
+        left: 0;
+}
+
+.design img{
+        height: 140px;
 }
 
 @media (max-width:991px){
