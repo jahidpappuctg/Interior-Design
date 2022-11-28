@@ -144,21 +144,21 @@ img{
         position: relative;   
 }
 
-.about-area h3 {
+.about-text h3 {
         font-size: 20px;
         color: #646464;
         text-transform: uppercase;
 }
 
-.about-area h2 {
+.about-text h2 {
         font-size: #212121;
         font-size: 72px;
 }
 
-.about-area p {
+.about-text p {
         margin: 30px 0;
 }
-.about-area a {
+.about-text a {
         display: inline-block;
         margin-top: 20px;
 }
@@ -177,11 +177,11 @@ img{
         position: relative;   
 }
 
-.success-area h3 {
+.success-text h3 {
         font-size: #212121;
         font-size: 55px;
 }
-.success-area a {
+.success-text a {
         display: inline-block;
         margin-top: 20px;
 }
