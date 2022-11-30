@@ -87,6 +87,21 @@ img {
   border: 1px solid #b0855b;
 }
 
+
+.section-heading h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #646464;
+  font-weight: 600;
+}
+
+.section-heading h3 {
+  font-size: 48px;
+  color: #646464;
+  text-transform: uppercase;
+}
+
+
 /* header area */
 .header-area {
   margin-top: 30px;
@@ -150,17 +165,6 @@ img {
   position: relative;
 }
 
-.services-area .section-heading h4 {
-  font-size: 20px;
-  font-weight: 500;
-  color: #646464;
-}
-
-.services-area .section-heading h3 {
-  font-size: 48px;
-  color: #212121;
-}
-
 .all-services {
   margin-top: 60px;
 }
@@ -175,6 +179,14 @@ img {
 .services-image {
   margin-right: 20px;
 }
+
+
+
+
+
+
+
+
 
 
 /*  */
@@ -299,13 +311,13 @@ img {
   margin-top: 100px;
 }
 
-.section-heading h3 {
+.testimonial-area .section-heading h3 {
   font-size: 20px;
   color: #646464;
   text-transform: uppercase;
 }
 
-.section-heading h2 {
+.testimonial-area .section-heading h2 {
   font-size: #212121;
   font-size: 52px;
 }
@@ -409,7 +421,7 @@ img {
 
 /*blog-area  */
 
-.blog-area{
+.blog-area {
   background-color: #F8F8F8;
   padding: 100px 0;
 }
@@ -418,14 +430,15 @@ img {
   margin-bottom: 70px;
 }
 
-.blog-text{
+.blog-text {
   margin: 40px 0;
 }
-.blog-text p{
+
+.blog-text p {
   margin-bottom: 0;
 }
 
-.blog-text .theme-btn{
+.blog-text .theme-btn {
   display: inline-block;
   margin-top: 30px;
 }
@@ -433,18 +446,18 @@ img {
 
 /* signup-area */
 
-.signup-area{
+.signup-area {
   padding: 180px 0;
 }
 
-.sign-text h3{
+.sign-text h3 {
   font-size: 48px;
   margin-bottom: 22px;
   padding-bottom: 22px;
   position: relative;
 }
 
-.sign-text h3::after{ 
+.sign-text h3::after {
   position: absolute;
   content: "";
   bottom: 0;
@@ -456,18 +469,19 @@ img {
 }
 
 
-.sign-text p{
+.sign-text p {
   margin-bottom: 45px;
 }
 
-.signup-area .form-control{
+.signup-area .form-control {
   background: #EEEEEE;
   border-radius: 20px 0px;
   border: none;
   font-size: 20px;
   padding: 15px 30px;
 }
-.signup-area button{
+
+.signup-area button {
   background-color: #37806B;
   color: #fff;
   padding: 15px 30px;
@@ -476,9 +490,9 @@ img {
   transition: .5s;
 }
 
-.signup-area button:hover{
+.signup-area button:hover {
   background-color: #b0855b;
-   
+
 }
 
 
@@ -575,23 +589,94 @@ img {
     text-align: center;
   }
 
-  .design-image{
+  .design-image {
     padding-right: 20px;
   }
-  
-  .design-image::after{
-      left: 20px;
-      right: 0px;
-      top: 20px;
-      bottom: -20px;
-    }
 
-    .hero-area {
-      text-align: center;
-    }
+  .design-image::after {
+    left: 20px;
+    right: 0px;
+    top: 20px;
+    bottom: -20px;
+  }
 
-    .hero-text .theme-btn{
-      width: 100%;
-      margin-bottom: 20px;
-    }
+  .hero-area {
+    text-align: center;
+  }
+
+  .hero-text .theme-btn {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+
+  .about-area {
+    padding: 50px 0;
+  }
+
+  .about-text {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .about-text h3 {
+    font-size: 20px;
+  }
+
+  .about-text h2 {
+    font-size: 52px;
+  }
+
+  .success-area {
+    padding: 50px 0;
+  }
+
+  .success-text {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .success-text h3 {
+    font-size: 30px;
+  }
+
+
+  .work-area {
+    padding: 50px 0;
+    text-align: center;
+  }
+
+  .all-singal-work {}
+
+  .singla-wrok-text {
+    background: #ffffff;
+    box-shadow: 0px 13px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 40px 0px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px
+  }
+
+  .wrok-text h3 {
+    font-size: 30px;
+  }
+
+  .singla-work {
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .special {
+    margin-top: 0px;
+  }
+
+  .singla-wrok-text h3 {
+    font-size: 30px;
+  }
+
 }
