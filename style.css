@@ -400,7 +400,35 @@ img {
   margin-left: 15px;
 }
 
+.testimonial-area .design {
+  position: absolute;
+  content: "";
+  top: -70px;
+  left: 0;
+}
 
+/*blog-area  */
+
+.blog-area{
+  background-color: #F8F8F8;
+  padding: 100px 0;
+}
+
+.blog-area .section-heading {
+  margin-bottom: 70px;
+}
+
+.blog-text{
+  margin: 40px 0;
+}
+.blog-text p{
+  margin-bottom: 0;
+}
+
+.blog-text .theme-btn{
+  display: inline-block;
+  margin-top: 30px;
+}
 
 
 
