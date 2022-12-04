@@ -1,7 +1,7 @@
-/* font-family: 'Open Sans', sans-serif;
-font-family: 'Poppins', sans-serif; */
-
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Poppins:wght@500;600;700&display=swap");
+/* /* font-family: 'Open Sans', sans-serif; */
+font-family: 'Poppins',
+sans-serif;
+*/ @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Poppins:wght@500;600;700&display=swap");
 
 * {
   margin: 0;
@@ -597,14 +597,14 @@ img {
   }
 
   .design-image {
-    padding-right: 20px;
+    padding-right: 10px;
   }
 
   .design-image::after {
-    left: 20px;
+    left: 10px;
     right: 0px;
-    top: 20px;
-    bottom: -20px;
+    top: 10px;
+    bottom: -10px;
   }
 
   .hero-area {
@@ -614,6 +614,78 @@ img {
   .hero-text .theme-btn {
     width: 100%;
     margin-bottom: 20px;
+  }
+
+  /* ............ */
+
+  .design-image::after {
+
+    left: 10px;
+    top: 10px;
+
+  }
+
+  .design-image-two::after {
+    left: -10px;
+    top: -10px;
+  }
+
+  /* hero */
+
+
+  .hero-area {
+    padding: 80px 0;
+  }
+
+  .hero-text h3 {
+    font-size: 20px;
+  }
+
+  .hero-text h2 {
+    font-size: 36px;
+  }
+
+  .hero-text p {
+    margin: 25px 0;
+  }
+
+  .hero-text a {
+    margin-top: 15px;
+  }
+
+  /* service */
+
+  .services-area {
+    padding: 80px 0;
+    position: relative;
+  }
+
+  .all-services {
+    margin-top: 40px;
+  }
+
+  .single-services {
+    padding: 25px 15px 25px 35px;
+  }
+
+  .services-image {
+    margin-right: 15px;
+  }
+
+  .services-area .owl-nav {
+    top: -40px;
+  }
+
+  .services-area .owl-next {
+    margin-left: 15px;
+  }
+
+  .section-heading h4 {
+    font-size: 18px;
+  }
+
+  .section-heading h3 {
+    font-size: 36px;
   }
 
   .about-area {
@@ -630,7 +702,7 @@ img {
   }
 
   .about-text h2 {
-    font-size: 52px;
+    font-size: 36px;
   }
 
   .success-area {
@@ -642,6 +714,10 @@ img {
     margin-bottom: 30px;
   }
 
+  .design-text h5 {
+    font-size: 108px;
+  }
+
   .success-text h3 {
     font-size: 30px;
   }
@@ -651,30 +727,131 @@ img {
     text-align: center;
   }
 
-  .all-singal-work {
-  }
-
-  .singla-wrok-text {
-    background: #ffffff;
-    box-shadow: 0px 13px 16px rgba(0, 0, 0, 0.1);
-    border-radius: 40px 0px;
-    width: 150px;
-    height: 150px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin-top: 50px;
-  }
-
   .wrok-text h3 {
-    font-size: 30px;
+    font-size: 24px;
   }
+
+  .singal-work {
+    margin-top: 15px;
+  }
+
+  .all-singal-work {
+    margin-left: 100px;
+  }
+
   .special {
     margin-top: 0px;
   }
 
   .singla-wrok-text h3 {
-    font-size: 30px;
+    font-size: 25px;
   }
+
+  /* footer */
+
+  .footer-top {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+
+  .footer-about p {
+    margin-top: 15px;
+  }
+
+  .design {
+    visibility: hidden;
+  }
+
+  .footer-link {
+    margin-top: 15px;
+  }
+
+  .signup-area {
+    padding: 80px 0;
+  }
+
+  .sign-text h3 {
+    font-size: 30px;
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+  }
+
+  .sign-text p {
+    margin-bottom: 25px;
+  }
+
+  /* blgo */
+  .blog-area {
+    padding: 60px 0;
+  }
+
+  .blog-area .section-heading {
+    margin-bottom: 50px;
+  }
+
+  .blog-text {
+    margin: 30px 0;
+  }
+
+  .blog-text .theme-btn {
+    display: inline-block;
+    margin-top: 30px;
+  }
+
+  /* testomonial */
+
+
+  .testimonial-area {
+    padding: 60px 0;
+  }
+
+  .all-testimonial {
+    margin-top: 80px;
+  }
+
+  .testimonial-area .section-heading h3 {
+    font-size: 15px;
+  }
+
+  .testimonial-area .section-heading h2 {
+    font-size: 36px;
+  }
+
+  .singal-testimonial {
+    padding: 20px;
+  }
+
+
+  .testimonial-img {
+    margin-right: 15px;
+  }
+
+  .testimonial-text h3 {
+    font-size: 18px;
+  }
+
+
+  .testimonial-text p {
+    font-size: 16px;
+  }
+
+  .icon-img img {
+    width: 25px !important;
+    height: 25px;
+  }
+
+  .testimonial-area .owl-nav {
+    top: -60px;
+  }
+
+  .testimonial-area .owl-next {
+    margin-left: 15px;
+  }
+
+  .testimonial-area .design {
+    visibility: hidden;
+  }
+
+
 }
