@@ -87,7 +87,6 @@ img {
   border: 1px solid #b0855b;
 }
 
-
 .section-heading h4 {
   font-size: 20px;
   text-transform: uppercase;
@@ -100,7 +99,6 @@ img {
   color: #646464;
   text-transform: uppercase;
 }
-
 
 /* header area */
 .header-area {
@@ -157,7 +155,6 @@ img {
 
 /*  */
 
-
 /*services-area  */
 
 .services-area {
@@ -180,9 +177,6 @@ img {
   margin-right: 20px;
 }
 
-
-
-
 .services-area .owl-nav {
   position: absolute;
   right: 0;
@@ -196,7 +190,7 @@ img {
   color: #646464;
   display: inline-block;
   border-radius: 50%;
-  transition: .3s;
+  transition: 0.3s;
   box-shadow: -1px 3px 10px #37806b;
 }
 
@@ -208,12 +202,6 @@ img {
 .services-area .owl-next {
   margin-left: 15px;
 }
-
-
-
-
-
-
 
 /*  */
 
@@ -404,7 +392,6 @@ img {
   right: 0;
   left: 65px;
   background-color: #b0855b;
-
 }
 
 .icon-img img {
@@ -425,7 +412,7 @@ img {
   color: #646464;
   display: inline-block;
   border-radius: 50%;
-  transition: .3s;
+  transition: 0.3s;
   box-shadow: -1px 3px 10px #37806b;
 }
 
@@ -448,7 +435,7 @@ img {
 /*blog-area  */
 
 .blog-area {
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
   padding: 100px 0;
 }
 
@@ -468,7 +455,6 @@ img {
   display: inline-block;
   margin-top: 30px;
 }
-
 
 /* signup-area */
 
@@ -491,16 +477,15 @@ img {
   transform: translateX(-50%);
   width: 400px;
   height: 2px;
-  background-color: #C4C4C4;
+  background-color: #c4c4c4;
 }
-
 
 .sign-text p {
   margin-bottom: 45px;
 }
 
 .signup-area .form-control {
-  background: #EEEEEE;
+  background: #eeeeee;
   border-radius: 20px 0px;
   border: none;
   font-size: 20px;
@@ -508,20 +493,17 @@ img {
 }
 
 .signup-area button {
-  background-color: #37806B;
+  background-color: #37806b;
   color: #fff;
   padding: 15px 30px;
   border-radius: 20px 0px;
   border: none;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .signup-area button:hover {
   background-color: #b0855b;
-
 }
-
-
 
 /* footer-area */
 .footer-area {
@@ -605,7 +587,6 @@ img {
 }
 
 @media (max-width: 991px) {
-
   .header-area .nav-link {
     margin-left: 0px;
   }
@@ -634,7 +615,6 @@ img {
     width: 100%;
     margin-bottom: 20px;
   }
-
 
   .about-area {
     padding: 50px 0;
@@ -666,13 +646,13 @@ img {
     font-size: 30px;
   }
 
-
   .work-area {
     padding: 50px 0;
     text-align: center;
   }
 
-  .all-singal-work {}
+  .all-singal-work {
+  }
 
   .singla-wrok-text {
     background: #ffffff;
@@ -684,19 +664,12 @@ img {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 50px
+    margin-top: 50px;
   }
 
   .wrok-text h3 {
     font-size: 30px;
   }
-
-  .singla-work {
-    display: flex;
-    justify-content: center;
-
-  }
-
   .special {
     margin-top: 0px;
   }
@@ -704,5 +677,4 @@ img {
   .singla-wrok-text h3 {
     font-size: 30px;
   }
-
 }
