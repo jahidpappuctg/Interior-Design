@@ -183,6 +183,32 @@ img {
 
 
 
+.services-area .owl-nav {
+  position: absolute;
+  right: 0;
+  top: -80px;
+}
+
+.services-area .owl-nav span {
+  height: 30px;
+  width: 30px;
+  background-color: #fff;
+  color: #646464;
+  display: inline-block;
+  border-radius: 50%;
+  transition: .3s;
+  box-shadow: -1px 3px 10px #37806b;
+}
+
+.services-area .owl-nav span:hover {
+  background-color: #37806b;
+  color: #fff;
+}
+
+.services-area .owl-next {
+  margin-left: 15px;
+}
+
 
 
 
